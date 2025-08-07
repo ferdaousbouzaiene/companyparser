@@ -45,20 +45,25 @@ You give it a company name and it returns a clean json-formatted-profile includi
 
 4. From project root, run: 
     ```bash
-    PYTHONPATH=. python3 profile_builder.py "Stripe"
+    PYTHONPATH=. python3 profile_builder.py "SoundCloud"
 
 
 ## Assumptions
 
 Company summaries are pulled from Wikipedia
+
 If exact matches aren’t found, the model attempts to infer based on context
+
 Missing data is labeled as "unknown" by default
 
 ## Improvements
 
 Batch input for multiple companies
+
 Crunchbase/LinkedIn integration
+
 Web app interface
+
 Caching for repeated queries
 
 ## Troubleshooting
