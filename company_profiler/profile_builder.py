@@ -1,4 +1,4 @@
-# company_profiler/profile_builder.py
+# cli orch, normalization, saving
 import argparse
 import json
 import logging
