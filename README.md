@@ -66,7 +66,7 @@ Before you begin, make sure you have:
 
 5. From project root, run: 
     ```bash
-    PYTHONPATH=. python3 profile_builder.py "SoundClouds"
+    PYTHONPATH=. python3 company_profiler/profile_builder.py "SoundClouds"
 
 
 ## Assumptions
