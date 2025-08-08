@@ -1,10 +1,10 @@
 {
-  "company_name": "Unknown",
-  "industry": "Data Compression",
+  "company_name": "artefact",
+  "industry": "Digital Media Compression",
   "founding_date": "Unknown",
-  "business_model": "Unknown",
-  "target_customers": "Unknown",
-  "key_value_proposition": "Specializes in data compression technologies to reduce file sizes while maintaining quality.",
+  "business_model": "B2B SaaS",
+  "target_customers": "Media Companies, Digital Content Providers",
+  "key_value_proposition": "Providing advanced algorithms to minimize compression artifacts in digital media, ensuring high-quality output for end-users.",
   "geographical_focus": "Global",
-  "funding_stage": "Unknown"
+  "funding_stage": "Seed"
 }
