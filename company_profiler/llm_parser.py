@@ -40,7 +40,7 @@ def extract_company_profile(summary: str) -> dict:
     - founding_date (as YYYY or YYYY-MM-DD if available)
     - business_model (e.g., B2B SaaS, Marketplace, Ad-based platform)
     - target_customers (e.g., Enterprise, SMBs, Developers, General public)
-    - key_value_proposition (1–2 sentences, clearly written)
+    - key_value_proposition (1 to 2 sentences, clearly written)
     - geographical_focus (e.g., US, Europe, Global)
     - funding_stage (e.g., Seed, Series A, Series B, Public)
 
