@@ -1,10 +1,10 @@
 {
-  "company_name": "unknown",
-  "industry": "unknown",
-  "founding_date": "unknown",
-  "business_model": "unknown",
-  "target_customers": "unknown",
-  "key_value_proposition": "unknown",
-  "geographical_focus": "unknown",
-  "funding_stage": "unknown"
+  "company_name": "Unknown",
+  "industry": "Data Compression",
+  "founding_date": "Unknown",
+  "business_model": "Unknown",
+  "target_customers": "Unknown",
+  "key_value_proposition": "Specializes in data compression technologies to reduce file sizes while maintaining quality.",
+  "geographical_focus": "Global",
+  "funding_stage": "Unknown"
 }

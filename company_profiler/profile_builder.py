@@ -21,7 +21,6 @@ def main():
         summary = fetch_company_summary(company_name)
         logger.info("📄 Wikipedia summary fetched successfully")
         logger.debug(f"Summary content:\n{summary}")
-
         logger.info("🤖 Extracting structured profile with LLM...")
         raw_profile = extract_company_profile(summary)
 

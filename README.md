@@ -27,25 +27,46 @@ You give it a company name and it returns a clean json-formatted-profile includi
 
 ---
 
+## Prerequisites
+
+Before you begin, make sure you have:
+
+- **Python 3.9+** installed  
+  (Project tested on Python 3.11 — may work on older versions but not guaranteed)
+- **pip** (Python package manager) available in your environment
+- An **OpenAI API key** (for GPT integration)
+- Internet connection (to fetch data from Wikipedia and call the OpenAI API)
+
+
+---
+
 ## Setup and Usage Instructions
 
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/llm-company-profiler.git
-   cd llm-company-profiler
+   git clone https://github.com/ferdaousbouzaiene/companyparser.git
+   cd companyparser
 
-2. Install dependencies:
+2. Create a virtual environment
+
+     ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Mac/Linux
+    venv\Scripts\activate     # On Windows
+
+
+3. Install dependencies:
     ```bash
     pip install -r requirements.txt
 
-3. Add openAi key to .env
+4. Add openAi key to .env
     ```bash
     echo "OPENAI_API_KEY=your-api-key-here" > .env
 
-4. From project root, run: 
+5. From project root, run: 
     ```bash
-    PYTHONPATH=. python3 profile_builder.py "SoundCloud"
+    PYTHONPATH=. python3 profile_builder.py "SoundClouds"
 
 
 ## Assumptions
